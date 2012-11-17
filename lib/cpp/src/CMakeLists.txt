@@ -1,7 +1,7 @@
 
 PROJECT(PLOW_CLIENT)
 
-SUBDIRS(core)
-SUBDIRS(gui)
-SUBDIRS(tools/wrangleplow)
-SUBDIRS(tools/spade)
+SUBDIRS(plow/core)
+SUBDIRS(plow/gui)
+SUBDIRS(plow/tools/wrangleplow)
+SUBDIRS(plow/tools/spade)

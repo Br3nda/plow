@@ -2,7 +2,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include "JobTree.h"
+#include "plow/gui/jobtree.h"
 
 #include <QMainWindow>
 #include <QTreeWidget>

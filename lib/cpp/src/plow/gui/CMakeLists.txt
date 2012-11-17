@@ -1,20 +1,21 @@
 PROJECT(PLOW_GUI)
 
 INCLUDE_DIRECTORIES(${CMAKE_CURRENT_BINARY_DIR})
-INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/src/export/plow)
+INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/src)
+INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/src/export)
 
 INCLUDE(${QT_USE_FILE})
 
 SET(PLOW_GUI_SRCS_CXX
-    JobTree.cpp
-    NodeModel.cpp 
-    NodeTableWidget.cpp 
+    jobtree.cpp
+    nodemodel.cpp 
+    nodetablewidget.cpp 
 )
 
 SET(PLOW_GUI_MOC_HDRS
-    JobTree.h
-    NodeModel.h 
-    NodeTableWidget.h
+    jobtree.h
+    nodemodel.h 
+    nodetablewidget.h
 )
 
 SET(PLOW_GUI_UI_FILES

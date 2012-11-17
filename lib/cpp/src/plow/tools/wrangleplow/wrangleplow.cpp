@@ -1,5 +1,5 @@
 #include "wrangleplow.h"
-#include "plow.h"
+#include "plow/plow.h"
 
 #include <QTreeWidgetItem>
 #include <vector>

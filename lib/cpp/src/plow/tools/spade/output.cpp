@@ -1,5 +1,5 @@
 #include "output.h"
-#include "plow.h"
+#include "plow/plow.h"
 
 #include <iostream>
 #include <iomanip>
