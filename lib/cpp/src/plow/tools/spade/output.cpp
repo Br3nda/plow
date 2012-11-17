@@ -3,7 +3,6 @@
 #include <map>
 
 #include "plow/plow.h"
-
 #include "output.h"
 
 using namespace Plow;
